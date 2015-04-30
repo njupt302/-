@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+    
+    <item android:state_pressed="true"> 
+        <shape>
+            <!-- 纯色 -->
+            <solid 
+                android:color="#57B345"/>
+            <!-- 描边 -->  
+             <stroke  
+                android:width="2dp"  
+                android:color="#0E4902"/> 
+            <!-- 圆角 -->  
+            <corners  
+                android:bottomLeftRadius="12dp"
+                android:bottomRightRadius="12dp"
+                android:topLeftRadius="12dp"
+                android:topRightRadius="12dp" />
+            <!-- 文字距离边框 -->
+            <padding 
+                android:left="3dp"
+                android:right="3dp"
+                android:bottom="3dp"
+                android:top="3dp"/> 
+        </shape>
+    </item>
+    <item android:state_focused="true"> 
+        <shape>
+            <!-- 纯色 -->
+            <solid 
+                android:color="#57B345"/>
+            <!-- 描边 -->  
+             <stroke  
+                android:width="2dp"  
+                android:color="#0E4902"/> 
+            <!-- 圆角 -->  
+            <corners  
+                android:radius="12dp" /> 
+            <!-- 文字距离边框 -->
+            <padding 
+                android:left="3dp"
+                android:right="3dp"
+                android:bottom="3dp"
+                android:top="3dp"/>
+        </shape>
+    </item>
+    <item >
+        <shape>
+            <!-- 渐变 -->  
+            <gradient 
+                android:startColor="#80D44E"
+                android:endColor="#9FE06E"
+                android:angle="90"/>
+            <!-- 描边 -->  
+             <stroke  
+                android:width="2dp"  
+                android:color="#0E4902"/> 
+            <!-- 圆角 -->  
+            <corners  
+                android:radius="12dp" /> 
+            <!-- 文字距离边框 -->
+            <padding 
+                android:left="3dp"
+                android:right="3dp"
+                android:bottom="3dp"
+                android:top="3dp"/>
+        </shape>
+	</item>
+</selector> 
